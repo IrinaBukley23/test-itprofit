@@ -1,1 +1,1 @@
-# test-itprofit
+# This template is deprecated

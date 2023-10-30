@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section class="wrapper">
+    <form class="form">
+      <div class="form__block">
+        <label for="">Введите имя:</label>
+        <input id="name" type="text">
+        <div class="error-message name"></div>
+      </div>
+      <div class="form__block">
+        <label for="">Введите почту:</label>
+        <input id="mail" type="email">
+        <div class="error-message mail"></div>
+      </div>
+      <div class="form__block">
+        <label for="">Введите номер телефона:</label>
+        <input id="phone" type="tel">
+        <div class="error-message phone"></div>
+      </div>
+      <div class="form__block">
+        <label for="">Ваш кометрарий:</label>
+        <textarea id="comment" name="story" rows="5" cols="33"></textarea>
+        <div class="error-message comment"></div>
+      </div>
+        <input class="form__btn" type="submit">
+    </form>
+    <div class="modal hide">
+      <div class="modal__content">
+        <div class="modal__content-close close">✖</div>
+        <div class="modal__content-text">Ваша заявка успешно отправлена!</div>
+        <button class="modal__content-btn close">Ok</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
